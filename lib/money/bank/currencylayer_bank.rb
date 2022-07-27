@@ -155,7 +155,7 @@ class Money
       # Check if rates are expired
       # @return [Boolean] true if rates are expired
       def expired?
-        Time.now > rates_expiration
+        false
       end
 
       # Check if rates are stale
